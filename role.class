@@ -1,0 +1,14 @@
+<?php
+class Role
+{
+	public function __construct($name, $employee)
+	{
+		$this->name = $name;
+		$this->employee = $employee;
+		
+	}
+	
+	public $name;
+	public $employee;
+}
+?>

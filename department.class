@@ -1,0 +1,14 @@
+<?php
+class Department
+{
+	public function __construct($name, $roles)
+	{
+		$this->name = $name;
+		$this->roles = $roles;
+	}
+	
+	public $name;
+	public $roles;
+	
+}
+?>

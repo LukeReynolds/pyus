@@ -1,0 +1,16 @@
+Employee
+	Username : String
+	Firstname : String
+	Surname : String
+	
+Role
+	Title : String
+	Employee : Employee
+	
+Department
+	Title : String
+	Roles : List<Role>
+	
+Site
+	Title : String
+	Address : String
